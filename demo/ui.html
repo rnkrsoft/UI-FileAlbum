@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>文件集组件</title>
+		<link href="../fileAlbum.css" rel="stylesheet" />
+	</head>
+	<body>
+		<!--表单包裹层-->
+		<div style="width: 250px; display: inline-block;">
+			<div class="fileAlbum-ui" id="xxx">
+				<div class="fileAlbum-selected-bar">
+					<ul class="fileAlbum-selected-items">
+						<li class="fileAlbum-selected-item">
+							<div class="fileAlbum-selected-item-inner">
+								<img src="images/0001.png" class="fileAlbum-image-40px"/>
+								<i class="fileAlbum-close fileAlbum-icon fileAlbum-icon-close-o"></i>
+							</div>
+						</li>
+						<li class="fileAlbum-selected-item">
+							<div class="fileAlbum-selected-item-inner">
+								<span class="fileAlbum-image-40px fileAlbum-icon fileAlbum-icon-files-box"></span>
+								<i class="fileAlbum-close fileAlbum-icon fileAlbum-icon-close-o"></i>
+							</div>
+						</li>
+						<li class="fileAlbum-selected-item">
+							<div class="fileAlbum-selected-item-inner">
+								<span class="fileAlbum-image-40px fileAlbum-icon fileAlbum-icon-image"></span>
+								<i class="fileAlbum-close fileAlbum-icon fileAlbum-icon-close-o"></i>
+							</div>
+						</li>
+						<li class="fileAlbum-selected-item">
+							<div class="fileAlbum-selected-item-inner">
+								<span class="fileAlbum-image-40px fileAlbum-icon fileAlbum-icon-album"></span>
+								<i class="fileAlbum-close fileAlbum-icon fileAlbum-icon-close-o"></i>
+							</div>
+						</li>
+					</ul>
+					<i id="xxx__fileAlbum-add" class="fileAlbum-add fileAlbum-icon fileAlbum-icon-add"></i>
+				</div>
+				<!--相册预览界面-->
+				<div class="preview-album-modal" style="width: 800px; height: 600px; left: 320px; top: 5.5px;">
+					<div class="preview-album-header">
+						<div class="preview-album-title">测试图片一</div>
+						<a href="javascript:void(0)" class="fileAlbum-icon preview-album-btn-close" title="关闭"></a>
+					</div>
+					<div class="preview-album-stage">
+						<img src="./images/0001.png" alt="" class="preview-album-image" style="transform: rotate(0deg); transform-origin: 50% 50% 0px;">
+					</div>
+					<div class="preview-album-footer">
+						<div class="preview-album-toolbar">
+							<a href="javascript:void(0)" class="preview-album-toolbar-btn fileAlbum-icon preview-album-btn-prev" title="上一张(←)">
+								
+							</a>
+							<a href="javascript:void(0)" class="preview-album-toolbar-btn fileAlbum-icon preview-album-btn-next" title="下一张(→)">
+								
+							</a>
+							<a href="javascript:void(0)" class="preview-album-toolbar-btn fileAlbum-icon preview-album-btn-rotateLeft" title="左旋转(Ctrl+,)">
+								
+							</a>
+							<a href="javascript:void(0)" class="preview-album-toolbar-btn fileAlbum-icon preview-album-btn-rotateRight" title="右旋转(Ctrl+.)">
+								
+							</a>
+							<a href="javascript:void(0)" class="preview-album-toolbar-btn fileAlbum-icon preview-album-btn-zoomIn" title="放大(+)">
+								
+							</a>
+							<a href="javascript:void(0)" class="preview-album-toolbar-btn fileAlbum-icon preview-album-btn-actualSize" title="实际尺寸(Ctrl+Alt+0)">
+								
+							</a>
+							<a href="javascript:void(0)" class="preview-album-toolbar-btn fileAlbum-icon preview-album-btn-zoomOut" title="缩小(-)">
+								
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
